@@ -14,25 +14,6 @@ window.onload = function(){
 
 	const $portfolio = $('.portfolio');
 
-	// $(document).on('keypress', function (e) {
-	// 	if(e.which === 13 && $portfolio.hasClass('closed')) {
-	// 		$portfolio.removeClass('closed');
-	// 		$portfolio.addClass('opened');
-	// 		$portfolio.css({
-	// 			'transform' : 'translateY(-1%)'
-	// 		});
-	// 	} else if (e.which === 13 && $portfolio.hasClass('opened')) {
-	// 		$portfolio.removeClass('opened');
-	// 		$portfolio.addClass('closed');
-	// 		$portfolio.css({
-	// 			'transform' : 'translateY(-150%)'
-	// 		});
-	// 	}
-	// });
-
-
-	//SWIPER
-
 	const swiper = new Swiper('.swiper-container', {
 		direction: 'vertical',
 		observer: true,
@@ -51,15 +32,9 @@ window.onload = function(){
 
 	});
 
-
-//TOOLTIP
-
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip()
 	});
-
-
-// TYPEWRITER
 
 	$('#typewriter-desktop').typewrite({
 		blinkingCursor: false,
@@ -68,7 +43,7 @@ window.onload = function(){
 			{
 				type: 'Hi, my name is Alex. ' +
 					'I am a web developer ' +
-					'living in Kiev, Ukraine.'
+					'living in Kyiv, Ukraine.'
 			},
 		]
 	});
@@ -84,12 +59,9 @@ window.onload = function(){
 			{delay: 2000},
 			{remove: {num: 23, type: 'stepped'}},
 			{delay: 1000},
-			{type: 'living in Kiev, Ukraine.'},
+			{type: 'living in Kyiv, Ukraine.'},
 		]
 	});
-
-
-//MOBILE NAVBAR
 
 	const nav = $('.mobile-nav');
 	$('.navbar-toggler-icon').on('click', function () {
@@ -105,9 +77,6 @@ window.onload = function(){
 		$(nav).removeClass('opened-nav').addClass('closed-nav');
 		$('.mobile-nav').animate({height: '0%'}, 500);
 	});
-
-
-//METRICS
 
 	const sec = $("section.portfolio, section.technologies");
 	const header = $("nav");
@@ -157,10 +126,6 @@ window.onload = function(){
 		}
 	});
 
-
-	//PRELOADER
-
-
 	setTimeout(function () {
 		const preloader = $('.preloader');
 		if (!preloader.hasClass('done')) {
@@ -171,9 +136,6 @@ window.onload = function(){
 			}, 1000);
 		}
 	}, 1000);
-
-
-	//POSITION OF .TITLE
 
 	const img_pos = $('.portfolio img').offset();
 	$('.title').offset({left: img_pos.left + 2});
