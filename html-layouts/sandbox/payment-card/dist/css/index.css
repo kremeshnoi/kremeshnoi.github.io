@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700&display=swap");
+body {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f9f9f9 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Roboto Mono', monospace !important;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw; }
+  body text {
+    text-transform: uppercase !important; }
+
+.main-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .main-block .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-perspective: 1000px;
+    perspective: 1000px; }
+    .main-block .container .credit-card {
+      width: 100%;
+      max-width: 500px;
+      -webkit-transition: -webkit-transform 0.6s;
+      transition: -webkit-transform 0.6s;
+      -o-transition: transform 0.6s;
+      transition: transform 0.6s;
+      transition: transform 0.6s, -webkit-transform 0.6s;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      cursor: pointer;
+      position: relative; }
+      .main-block .container .credit-card .front-side {
+        position: absolute;
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+        max-width: 500px;
+        width: 100%; }
+        .main-block .container .credit-card .front-side .bank-system {
+          position: absolute;
+          right: 20px;
+          top: 22px; }
+          .main-block .container .credit-card .front-side .bank-system #logo {
+            height: 60px;
+            width: 100px; }
+        .main-block .container .credit-card .front-side #front-side-svg {
+          background-position: center !important;
+          border-radius: 18px;
+          -webkit-box-shadow: 3px 3px 10px;
+          box-shadow: 3px 3px 10px;
+          max-width: 600px;
+          width: 100%; }
+          .main-block .container .credit-card .front-side #front-side-svg #front-side #chip {
+            fill: url(#chip-gradient); }
+            .main-block .container .credit-card .front-side #front-side-svg #front-side #chip #chip-gradient {
+              --color-gold-0: #ffffac;
+              --color-gold-100: #8a6e2f;
+              --color-gold-25: #fdb931;
+              --color-gold-30: #9f7928; }
+            .main-block .container .credit-card .front-side #front-side-svg #front-side #chip #inner-chip {
+              fill: url(#chip-gradient); }
+          .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text {
+            fill: url(#card-text-gradient) #fff;
+            font-weight: 300; }
+            .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text #card-text-gradient {
+              --color-bottom: #999;
+              --color-top: #eee; }
+            .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text .card-number-title, .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text .cardholder-name-title, .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text .expiration-title {
+              font-size: 24px; }
+            .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text .card-number {
+              font-size: 54px; }
+            .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text .cardholder-name {
+              font-size: 32px; }
+            .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text .expiration-date {
+              font-size: 36px; }
+            .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text .expiration-title-bottom, .main-block .container .credit-card .front-side #front-side-svg #front-side #card-text .expiration-title-top {
+              font-size: 18px; }
+      .main-block .container .credit-card .back-side {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden; }
+        .main-block .container .credit-card .back-side #back-side-svg {
+          background-position: center !important;
+          border-radius: 18px;
+          -webkit-box-shadow: 3px 3px 10px;
+          box-shadow: 3px 3px 10px;
+          max-width: 600px;
+          width: 100%; }
+          .main-block .container .credit-card .back-side #back-side-svg .cvv {
+            fill: black;
+            font-size: 30px; }
+          .main-block .container .credit-card .back-side #back-side-svg .cvv-title {
+            font-size: 22px; }
+          .main-block .container .credit-card .back-side #back-side-svg .back-card-holder {
+            fill: #f2f2f2; }
+          .main-block .container .credit-card .back-side #back-side-svg .back-line {
+            fill: #d8d2db; }
+          .main-block .container .credit-card .back-side #back-side-svg .back-cvv {
+            fill: #c4c4c4; }
+          .main-block .container .credit-card .back-side #back-side-svg .back-card-holder-name {
+            fill: black;
+            font-size: 30px; }
+  .main-block .form-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    padding: 0 15px;
+    width: 100%; }
+    .main-block .form-container .field-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px; }
+      .main-block .form-container .field-container label {
+        color: #909999;
+        font-size: 14px;
+        margin-top: 10px; }
+      .main-block .form-container .field-container input {
+        border: 1px solid #dcdcdc;
+        border-radius: 3px;
+        color: #909999;
+        font-size: 16px;
+        max-width: 500px;
+        outline: none;
+        padding: 10px;
+        width: 100%; }
+
+@media only screen and (max-width: 768px) {
+  .main-block {
+    display: block; }
+    .main-block .form-container {
+      margin-top: 30px; } }
+
+@media only screen and (max-width: 402px) {
+  .main-block .container .credit-card .front-side .bank-system {
+    right: 15px;
+    top: 15px; } }
+
+@media only screen and (max-width: 360px) {
+  .main-block .container .credit-card .front-side .bank-system {
+    right: 10px;
+    top: 10px; } }

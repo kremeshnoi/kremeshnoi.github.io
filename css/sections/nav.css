@@ -1,0 +1,43 @@
+nav {
+  z-index: 2; }
+  nav .navbar-toggler {
+    border: 0;
+    outline: none !important; }
+  nav ul {
+    margin: 0; }
+    nav ul a {
+      cursor: pointer; }
+
+.tooltip .arrow {
+  margin-top: 10px; }
+
+.tooltip-inner {
+  background-color: #ffcb00 !important;
+  margin-top: 10px !important;
+  color: #000 !important;
+  padding: 14px !important;
+  font-size: 16px !important;
+  font-weight: 400 !important; }
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow:before, .bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #ffcb00 !important; }
+
+@media only screen and (max-width: 992px) {
+  .navbar-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1; }
+  .navbar-toggler {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2; } }
