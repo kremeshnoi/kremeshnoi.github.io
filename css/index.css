@@ -32,6 +32,31 @@ header .overlay {
       header .overlay .overlay-content a:hover, header .overlay .overlay-content a:focus {
         color: #f1f1f1; }
 
+.shine {
+  background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+  background-image: -webkit-linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
+  background-size: 200px;
+  -webkit-background-size: 200px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation-name: shine;
+  -webkit-animation-name: shine;
+  animation-duration: 8s;
+  color: linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
+  -webkit-animation-duration: 8s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes shine {
+  0%, 10% {
+    background-position: -200px;
+  }
+  30% {
+    background-position: top left;
+  }
+}
+
 .tooltip .arrow {
   margin-top: 10px; }
 
