@@ -41,7 +41,7 @@ header .overlay {
   -webkit-background-clip: text;
   animation-name: shine;
   -webkit-animation-name: shine;
-  animation-duration: 10s;
+  animation-duration: 4s;
   color: linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
@@ -51,7 +51,7 @@ header .overlay {
   0%, 10% {
     background-position: -200px;
   }
-  30% {
+  100% {
     background-position: top left;
   }
 }
