@@ -47,6 +47,46 @@ header .overlay {
   -webkit-animation-iteration-count: infinite;
 }
 
+main .portfolio .case {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 50%;
+  margin-right: 40px;
+}
+
+main .portfolio .desktop {
+  width: 50%;
+  margin-right: 40px;
+  height: auto;
+  max-width: 510px;
+}
+
+main .portfolio .case-title {
+  margin: 0;
+  font-size: 22px;
+}
+
+main .portfolio .case-paragraph {
+  margin: 14px 0;
+  text-align: start;
+}
+
+main .portfolio .case-paragraph-note {
+  margin: 14px 0;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-text a {
+  color: hsla(0,0%,100%,.5) !important;
+}
+
+.navbar-text a:hover {
+  text-decoration: none;
+}
+
 @keyframes shine {
   0%, 10% {
     background-position: -200px;
@@ -236,13 +276,6 @@ main {
       font-size: 16px;
       color: #000;
       margin-bottom: 10px; }
-    main .portfolio img {
-      height: 340px;
-      margin: 0 30px; }
-      main .portfolio img:nth-child(2n) {
-        height: 200px; }
-      main .portfolio img:last-child {
-        height: 140px; }
     main .portfolio .title {
       margin-bottom: 10px; }
       main .portfolio .title .btn {
@@ -572,40 +605,26 @@ main {
     margin: 4px; } }
 
 @media only screen and (max-width: 1600px) {
-  main .portfolio img {
-    height: 240px; }
-    main .portfolio img:nth-child(2n) {
-      height: 160px; }
-    main .portfolio img:last-child {
-      height: 90px; } }
+}
 
 @media only screen and (max-width: 1440px) {
   main .portfolio p {
     margin-top: 20px; } }
 
 @media only screen and (max-width: 1366px) {
-  main .portfolio img {
-    height: 220px; } }
+}
 
 @media only screen and (max-width: 1280px) {
-  main .portfolio img {
-    height: 280px; } }
+}
 
 @media only screen and (max-width: 1280px) and (max-height: 900px) {
-  main .portfolio img {
-    height: 200px; } }
+}
 
 @media only screen and (max-width: 1200px) {
-  main .portfolio img {
-    height: 240px; } }
+}
 
 @media only screen and (max-width: 992px) {
-  main .portfolio img {
-    height: 190px; }
-    main .portfolio img:nth-child(2n) {
-      height: 120px; }
-    main .portfolio img:last-child {
-      height: 80px; } }
+}
 
 @media only screen and (max-width: 768px) {
   main .portfolio hr {
@@ -615,22 +634,10 @@ main {
     margin-top: 10px; }
   main .portfolio .container .swiper-container {
     margin-right: 10%; }
-  main .portfolio img {
-    height: 230px;
-    margin: 10px; }
-    main .portfolio img:nth-child(2n) {
-      height: 130px; }
-    main .portfolio img:last-child {
-      height: 90px; } }
+}
 
 @media only screen and (max-width: 720px) {
-  main .portfolio img {
-    height: 110px;
-    margin: 4px; }
-    main .portfolio img:nth-child(2n) {
-      height: 80px; }
-    main .portfolio img:last-child {
-      height: 50px; } }
+}
 
 @media only screen and (max-width: 420px) {
   main .portfolio .container p {
@@ -638,12 +645,6 @@ main {
     margin-left: 20px;
     margin-right: 20px;
     text-align: right; }
-  main .portfolio img {
-    height: 120px; }
-    main .portfolio img:nth-child(2n) {
-      height: 70px; }
-    main .portfolio img:last-child {
-      height: 50px; }
   main .portfolio .title h2 {
     font-size: 20px; }
   main .portfolio .title button {
@@ -653,22 +654,12 @@ main {
     margin-top: 0; } }
 
 @media only screen and (max-width: 380px) {
-  main .portfolio img {
-    height: 110px; }
-    main .portfolio img:nth-child(2n) {
-      height: 60px; }
-    main .portfolio img:last-child {
-      height: 44px; } }
+}
 
 @media only screen and (max-width: 320px) {
   main .portfolio p {
     font-size: 12px; }
-  main .portfolio img {
-    height: 74px; }
-    main .portfolio img:nth-child(2n) {
-      height: 50px; }
-    main .portfolio img:last-child {
-      height: 40px; } }
+}
 
 @media only screen and (max-width: 960px) and (max-height: 500px) {
   #main {
