@@ -102,6 +102,7 @@ window.onload = function(){
 		header.find('a[data-id=' + id + ']').addClass("active");
 		sec.each((index, s) => {
 			$(s).removeClass("show");
+			main.find(".Y").removeClass("active");
 			if ($(s).data("id") === id) $(s).addClass("show");
 		})
 	});
