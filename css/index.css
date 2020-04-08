@@ -236,9 +236,9 @@ main {
     background: #ffcb00;
     top: 0;
     left: 0;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+    -webkit-transition: width 0s, height 1s, transform 1s;
+    -o-transition: width 0s, height 1s, transform 1s;
+    transition: width 0s, height 1s, transform 1s;
     -webkit-transform: translateY(-150%);
     -ms-transform: translateY(-150%);
     transform: translateY(-150%);
@@ -259,9 +259,9 @@ main {
     background-color: #fff;
     -webkit-box-shadow: 0 4px 7px rgba(0, 0, 0, 0.6);
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.6);
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+    -webkit-transition: width 0s, height 1s, transform 1s;
+    -o-transition: width 0s, height 1s, transform 1s;
+    transition:width 0s, height 1s, transform 1s;
     -webkit-transform: translateY(-150%);
     -ms-transform: translateY(-150%);
     transform: translateY(-150%); }
