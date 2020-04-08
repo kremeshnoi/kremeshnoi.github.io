@@ -59,7 +59,7 @@ main .portfolio .desktop {
   width: 50%;
   margin-right: 40px;
   height: auto;
-  max-width: 510px;
+  max-width: 460px;
 }
 
 main .portfolio .case-title {
@@ -261,7 +261,10 @@ main {
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.6);
     -webkit-transition: 1s;
     -o-transition: 1s;
-    transition: 1s; }
+    transition: 1s;
+    -webkit-transform: translateY(-150%);
+    -ms-transform: translateY(-150%);
+    transform: translateY(-150%); }
     main .portfolio hr {
       margin: 10px; }
     main .portfolio.show {
@@ -679,3 +682,9 @@ main {
     .overlay-device .icon-container p {
       -webkit-animation: fadeIn-span 0.5s 1.3s forwards ease;
       animation: fadeIn-span 0.5s 1.3s forwards ease; } }
+
+@media only screen and (max-width: 1024px) {
+  main .portfolio .desktop {
+    max-width: 360px;
+  }
+}

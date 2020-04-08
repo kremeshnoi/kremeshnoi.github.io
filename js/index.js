@@ -12,12 +12,11 @@ window.addEventListener('resize', () => {
 
 window.onload = function(){
 
-	const $portfolio = $('.portfolio');
-
 	const swiper = new Swiper('.swiper-container', {
 		direction: 'vertical',
 		observer: true,
 		observeParents: true,
+		slidesPerView:'auto',
 		pagination: {
 			el: '.swiper-pagination',
 			clickable: true,
@@ -29,7 +28,6 @@ window.onload = function(){
 		mousewheel: {
 			invert: false,
 		},
-
 	});
 
 	$(function () {
@@ -79,6 +77,8 @@ window.onload = function(){
 	});
 
 	const sec = $("section.portfolio, section.technologies");
+	const portfolio = $("section.portfolio");
+	const slider_wrapper = $(".swiper-wrapper");
 	const header = $("nav");
 	const soc = $(".social-icons");
 	const main = $("main");
@@ -122,6 +122,7 @@ window.onload = function(){
 			&& !header.find("a").is(e.target)
 			&& sec.has(e.target).length === 0) {
 			sec.removeClass("show");
+			main.find(".Y").removeClass("active");
 			header.find(".Y").removeClass("active");
 		}
 	});
@@ -136,10 +137,4 @@ window.onload = function(){
 			}, 1000);
 		}
 	}, 1000);
-
-	const img_pos = $('.portfolio img').offset();
-	$('.title').offset({left: img_pos.left + 2});
-	$portfolio.css({
-		'transform': 'translateY(-150%)'
-	});
 };
