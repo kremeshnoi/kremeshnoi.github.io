@@ -666,6 +666,11 @@ main {
       -webkit-animation: fadeIn-span 0.5s 1.3s forwards ease;
       animation: fadeIn-span 0.5s 1.3s forwards ease; } }
 
+@media only screen and (max-width: 1024px) {
+  main .portfolio .desktop {
+    max-width: 360px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   main .portfolio .desktop {
