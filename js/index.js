@@ -13,12 +13,10 @@ window.addEventListener('resize', () => {
 window.onload = function(){
 
 	const mySwiper = new Swiper('.swiper-container', {
-		lazy: true,
 		observer: true,
 		observeParents: true,
 		direction: 'vertical',
 		slidesPerView: 'auto',
-		watchSlidesVisibility: true,
 		pagination: {
 			el: '.swiper-pagination',
 			clickable: true,
