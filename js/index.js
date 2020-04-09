@@ -12,11 +12,11 @@ window.addEventListener('resize', () => {
 
 window.onload = function(){
 
-	const swiper = new Swiper('.swiper-container', {
-		direction: 'vertical',
+	const mySwiper = new Swiper('.swiper-container', {
 		observer: true,
 		observeParents: true,
-		slidesPerView:'auto',
+		direction: 'vertical',
+		slidesPerView: 'auto',
 		pagination: {
 			el: '.swiper-pagination',
 			clickable: true,
@@ -28,6 +28,14 @@ window.onload = function(){
 		mousewheel: {
 			invert: false,
 		},
+	});
+
+	mySwiper.on('touchStart', function () {
+		mySwiper.update();
+	});
+
+	mySwiper.on('resize', function () {
+		this.slideTo(0, 2000);
 	});
 
 	$(function () {
@@ -52,10 +60,10 @@ window.onload = function(){
 		actions: [
 			{type: 'Hi, my name is Alex.'},
 			{delay: 2000},
-			{remove: {num: 20}, type: 'stepped'},
-			{type: 'I am a web developer'},
+			{remove: {num: 20}},
+			{type: 'I am web developer'},
 			{delay: 2000},
-			{remove: {num: 23, type: 'stepped'}},
+			{remove: {num: 23}},
 			{delay: 1000},
 			{type: 'living in Kyiv, Ukraine.'},
 		]
@@ -77,8 +85,6 @@ window.onload = function(){
 	});
 
 	const sec = $("section.portfolio, section.technologies");
-	const portfolio = $("section.portfolio");
-	const slider_wrapper = $(".swiper-wrapper");
 	const header = $("nav");
 	const soc = $(".social-icons");
 	const main = $("main");
@@ -128,14 +134,14 @@ window.onload = function(){
 		}
 	});
 
-	setTimeout(function () {
-		const preloader = $('.preloader');
-		if (!preloader.hasClass('done')) {
-			preloader.addClass('done');
-			preloader.css('opacity', '0');
-			setTimeout(function () {
-				preloader.css('z-index', '0');
-			}, 1000);
-		}
-	}, 1000);
+	// setTimeout(function () {
+	// 	const preloader = $('.preloader');
+	// 	if (!preloader.hasClass('done')) {
+	// 		preloader.addClass('done');
+	// 		preloader.css('opacity', '0');
+	// 		setTimeout(function () {
+	// 			preloader.css('z-index', '0');
+	// 		}, 1000);
+	// 	}
+	// }, 1000);
 };

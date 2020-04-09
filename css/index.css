@@ -1,8 +1,7 @@
 header .main-nav {
   z-index: 3; }
   header .main-nav .navbar-toggler {
-    border: 0;
-    outline: none !important; }
+    border: 0; }
   header .main-nav ul {
     margin: 0; }
     header .main-nav ul a {
@@ -282,7 +281,7 @@ main {
     main .portfolio .title {
       margin-bottom: 10px; }
       main .portfolio .title .btn {
-        margin: 10px auto; }
+        margin: 10px 4px; }
     main .portfolio .swiper-container {
       width: 100%;
       height: 100%; }
