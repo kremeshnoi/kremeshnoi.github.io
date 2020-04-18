@@ -84,7 +84,7 @@ window.onload = function(){
 		$('.mobile-nav').animate({height: '0%'}, 500);
 	});
 
-	const sec = $("section.portfolio, section.technologies");
+	const sec = $("section.portfolio, section.technologies, section.petprojects");
 	const header = $("nav");
 	const soc = $(".social-icons");
 	const main = $("main");

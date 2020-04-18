@@ -240,6 +240,25 @@ main {
     opacity: 0.0; }
   100% {
     opacity: 1.0; } }
+
+    main .petprojects {
+      position: fixed;
+      min-width: 100vw;
+      background-color: #fff;
+      top: 0;
+      left: 0;
+      -webkit-transition: width 0s, height 1s, transform 1s;
+      -o-transition: width 0s, height 1s, transform 1s;
+      transition: width 0s, height 1s, transform 1s;
+      -webkit-transform: translateY(-150%);
+      -ms-transform: translateY(-150%);
+      transform: translateY(-150%);
+      text-align: center; }
+      main .petprojects.show {
+        -webkit-transform: translateY(-1%);
+        -ms-transform: translateY(-1%);
+        transform: translateY(-1%); }
+
   main .technologies {
     position: fixed;
     min-width: 100vw;
