@@ -10,14 +10,21 @@
   -webkit-transform: translateY(-150%);
   -ms-transform: translateY(-150%);
   transform: translateY(-150%);
-  text-align: center; }
-  .technologies.show {
-    -webkit-transform: translateY(-2%);
-    -ms-transform: translateY(-2%);
-    transform: translateY(-2%); }
-  .technologies h2 {
-    font-size: 38px;
-    padding-bottom: 34px; }
-  .technologies img {
-    height: 110px;
-    margin: 20px; }
+  text-align: center;
+}
+
+.technologies.show {
+  -webkit-transform: translateY(-2%);
+  -ms-transform: translateY(-2%);
+  transform: translateY(-2%);
+}
+
+.technologies h2 {
+  font-size: 38px;
+  padding-bottom: 34px;
+}
+
+.technologies img {
+  height: 110px;
+  margin: 20px;
+}

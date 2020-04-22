@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Kremeshnoi</title>
-	<link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon' />
-	<meta name="theme-color" content="#343a40">
-	<link rel="stylesheet" href="css/index.min.css">
-	<link rel="stylesheet" href="css/fonts.min.css">
-	<link rel="stylesheet" href="css/libs.min.css">
-	<script src="js/libs.min.js"></script>
-	<script src="js/index.min.js"></script>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Kremeshnoi</title>
+  <link href='img/favicon.ico' rel='shortcut icon' type='image/x-icon'/>
+  <meta content="#343a40" name="theme-color">
+  <link href="css/index.min.css" rel="stylesheet">
+  <link href="css/fonts.min.css" rel="stylesheet">
+  <link href="css/libs.min.css" rel="stylesheet">
+  <script src="js/libs.min.js"></script>
+  <script src="js/index.min.js"></script>
 </head>
 <body>
 
@@ -19,217 +19,232 @@
 </div> -->
 
 <header>
-	<nav class="d-flex main-nav navbar navbar-dark navbar-expand-lg bg-dark">
-		<button class="navbar-toggler ml-auto">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse">
-			<ul class="navbar-nav">
-				<li><a class="nav-link Y" data-id="main" href="">Home</a></li>
-				<li><a class="nav-link Y" data-id="technologies" href="">Technologies</a></li>
-				<li class="dropdown">
-					<a class="nav-link shine"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Pet Projects</a>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" target="_blank" href="https://kremeshnoi-nasa-api.now.sh/">NASA API Implementation on Vue.js</a>
-						<a class="dropdown-item" target="_blank" href="https://github.com/kremeshnoi/to-do/">To Do on Ruby on Rails</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" target="_blank" href="/html-layouts/payment-card/">Payment card</a>
-					</div>
-				</li>
-				<li><a class="nav-link" title="PDF file" data-toggle="tooltip" href="docs/cv.pdf">Download CV</a>
-				</li>
-			</ul>
-		</div>
-		<span class="navbar-text">
+  <nav class="d-flex main-nav navbar navbar-dark navbar-expand-lg bg-dark">
+    <button class="navbar-toggler ml-auto">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li><a class="nav-link Y" data-id="main" href="">Home</a></li>
+        <li><a class="nav-link Y" data-id="technologies" href="">Technologies</a></li>
+        <li class="dropdown">
+          <a aria-expanded="false" aria-haspopup="true" class="nav-link shine" data-toggle="dropdown" href="#"
+             role="button">My Pet Projects</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://kremeshnoi-nasa-api.now.sh/" target="_blank">NASA API Implementation
+              on Vue.js</a>
+            <a class="dropdown-item" href="https://github.com/kremeshnoi/to-do/" target="_blank">To Do on Ruby on
+              Rails</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/html-layouts/payment-card/" target="_blank">Payment card</a>
+          </div>
+        </li>
+        <li><a class="nav-link" data-toggle="tooltip" href="docs/cv.pdf" title="PDF file">Download CV</a>
+        </li>
+      </ul>
+    </div>
+    <span class="navbar-text">
 			<a href="mailto: alexander.kremeshnoi@gmail.com">alexander.kremeshnoi@gmail.com</a>
     </span>
-	</nav>
+  </nav>
 
-	<nav class="mobile-nav fixed-top overlay d-flex closed-nav">
-		<ul class="overlay-content d-flex align-self-center flex-column">
-			<li><a class="nav-link Y" data-id="main" href="">Home</a></li>
-			<li><a class="nav-link Y" data-id="technologies" href="">Technologies</a></li>
-			<li><a class="nav-link Y shine" data-id="petprojects" href="">My Pet Projects</a>
-			</li>
-			<li><a class="nav-link" href="docs/cv.pdf">Download CV</a></li>
-		</ul>
-	</nav>
+  <nav class="mobile-nav fixed-top overlay d-flex closed-nav">
+    <ul class="overlay-content d-flex align-self-center flex-column">
+      <li><a class="nav-link Y" data-id="main" href="">Home</a></li>
+      <li><a class="nav-link Y" data-id="technologies" href="">Technologies</a></li>
+      <li><a class="nav-link Y shine" data-id="petprojects" href="">My Pet Projects</a>
+      </li>
+      <li><a class="nav-link" href="docs/cv.pdf">Download CV</a></li>
+    </ul>
+  </nav>
 
-	<div class="overlay-device">
-		<div class="icon-container">
-			<div class="phone">
-				<span>&#x21bb;</span>
-			</div>
-			<p>Rotate your device for better experience!</p>
-		</div>
-	</div>
+  <div class="overlay-device">
+    <div class="icon-container">
+      <div class="phone">
+        <span>&#x21bb;</span>
+      </div>
+      <p>Rotate your device for better experience!</p>
+    </div>
+  </div>
 </header>
 
 <main class="d-flex main-section justify-content-center align-items-center">
-	<section class="d-flex main-section" data-id="main" id="main">
-		<div class="container">
-			<div class="d-flex justify-content-center typewriter-desktop" id="typewriter-desktop"></div>
-			<div class="d-flex justify-content-center typewriter-mobile" id="typewriter-mobile"></div>
-			<hr>
-			<div class="d-flex about-title">
-				<h2> About </h2>
-			</div>
-			<div class="d-flex justify-content-start about-main">
-				<p> I am currently freelancing as a front-end web developer, which brings me great pleasure. I’m not afraid
-					of
-					new challenges and am always ready to develop my professional and human qualities. Outside of work,
-					I
-					enjoy spending time with friends and pursuing a few hobbies. Check out my work and feel free to get
-					in
-					touch with me, I’m always happy to help! </p>
-			</div>
-			<div class="d-flex justify-content-center portfolio-btn">
-				<a class="btn btn-primary btn-lg Y" data-id="portfolio" href=""> Watch my Portfolio </a>
-			</div>
-			<div class="d-flex justify-content-end social-icons">
-				<ul>
-					<li><a href="https://github.com/kremeshnoi/"></a></li>
-					<li><a href="https://www.linkedin.com/in/alexander-kremeshnoi/"></a></li>
-				</ul>
-			</div>
-			<hr>
-			<div class="d-flex justify-content-start author">
-				<p> © Alexander Kremeshnoi 2020 </p>
-			</div>
-		</div>
-	</section>
+  <section class="d-flex main-section" data-id="main" id="main">
+    <div class="container">
+      <div class="d-flex justify-content-center typewriter-desktop" id="typewriter-desktop"></div>
+      <div class="d-flex justify-content-center typewriter-mobile" id="typewriter-mobile"></div>
+      <hr>
+      <div class="d-flex about-title">
+        <h2> About </h2>
+      </div>
+      <div class="d-flex justify-content-start about-main">
+        <p> I am currently freelancing as a front-end web developer, which brings me great pleasure. I’m not afraid
+          of
+          new challenges and am always ready to develop my professional and human qualities. Outside of work,
+          I
+          enjoy spending time with friends and pursuing a few hobbies. Check out my work and feel free to get
+          in
+          touch with me, I’m always happy to help! </p>
+      </div>
+      <div class="d-flex justify-content-center portfolio-btn">
+        <a class="btn btn-primary btn-lg Y" data-id="portfolio" href=""> Watch my Portfolio </a>
+      </div>
+      <div class="d-flex justify-content-end social-icons">
+        <ul>
+          <li><a href="https://github.com/kremeshnoi/"></a></li>
+          <li><a href="https://www.linkedin.com/in/alexander-kremeshnoi/"></a></li>
+        </ul>
+      </div>
+      <hr>
+      <div class="d-flex justify-content-start author">
+        <p> © Alexander Kremeshnoi 2020 </p>
+      </div>
+    </div>
+  </section>
 
-	<section class="d-flex petprojects justify-content-center align-items-center" data-id="petprojects"
-	         id="petprojects">
-		<div class="container">
-			<a class="" target="_blank" href="https://kremeshnoi-nasa-api.now.sh/">NASA API Implementation on Vue.js</a>
-			<hr>
-			<a class="" target="_blank" href="https://github.com/kremeshnoi/to-do/">To Do on Ruby on Rails</a>
-			<hr>
-			<a class="" target="_blank" href="/html-layouts/payment-card/">Payment card</a>
-		</div>
-	</section>
+  <section class="d-flex petprojects justify-content-center align-items-center" data-id="petprojects"
+           id="petprojects">
+    <div class="container">
+      <a class="" href="https://kremeshnoi-nasa-api.now.sh/" target="_blank">NASA API Implementation on Vue.js</a>
+      <hr>
+      <a class="" href="https://github.com/kremeshnoi/to-do/" target="_blank">To Do on Ruby on Rails</a>
+      <hr>
+      <a class="" href="/html-layouts/payment-card/" target="_blank">Payment card</a>
+    </div>
+  </section>
 
-	<section class="d-flex technologies justify-content-center align-items-center" data-id="technologies"
-	         id="technologies">
-		<div class="container">
-			<h2>The technologies that I prefer to use</h2>
-			<div class="row d-flex flex-nowrap">
-				<div class="col-12 d-flex align-items-center flex-nowrap justify-content-center">
-					<a href="https://html.spec.whatwg.org/">
-						<img class="hvr-grow img-fluid" src="img/html5.png" alt="html5 logo"></a>
-					<a href="https://sass-lang.com/">
-						<img class="hvr-grow img-fluid" src="img/sass.png" alt="sass logo"></a>
-					<a href="https://www.javascript.com/">
-						<img class="hvr-grow img-fluid" src="img/js.png" alt="javascript logo"></a>
-					<a href="https://webpack.js.org/">
-						<img class="hvr-grow img-fluid" src="img/webpack.png" alt="webpack logo"></a>
-					<a href="https://pugjs.org/">
-						<img class="hvr-grow img-fluid" src="img/pug.png" alt="pug logo"></a>
-				</div>
-			</div>
-			<div class="row d-flex flex-nowrap">
-				<div class="col-12 d-flex align-items-center flex-nowrap justify-content-center">
-					<a href="https://jquery.com/">
-						<img class="hvr-grow img-fluid" src="img/jquery.png" alt="jquery logo"></a>
-					<a href="https://git-scm.com/">
-						<img class="hvr-grow img-fluid" src="img/git.png" alt="git logo"></a>
-					<a href="https://yarnpkg.com/">
-						<img class="hvr-grow img-fluid" src="img/yarn.png" alt="yarn logo"></a>
-					<a href="https://www.w3.org/Style/CSS/">
-						<img class="hvr-grow img-fluid" src="img/css3.png" alt="css3 logo"></a>
-				</div>
-			</div>
-			<hr>
-		</div>
-	</section>
+  <section class="d-flex technologies justify-content-center align-items-center" data-id="technologies"
+           id="technologies">
+    <div class="container">
+      <h2>The technologies that I prefer to use</h2>
+      <div class="row d-flex flex-nowrap">
+        <div class="col-12 d-flex align-items-center flex-nowrap justify-content-center">
+          <a href="https://html.spec.whatwg.org/">
+            <img alt="html5 logo" class="hvr-grow img-fluid" src="img/html5.png"></a>
+          <a href="https://sass-lang.com/">
+            <img alt="sass logo" class="hvr-grow img-fluid" src="img/sass.png"></a>
+          <a href="https://www.javascript.com/">
+            <img alt="javascript logo" class="hvr-grow img-fluid" src="img/js.png"></a>
+          <a href="https://webpack.js.org/">
+            <img alt="webpack logo" class="hvr-grow img-fluid" src="img/webpack.png"></a>
+          <a href="https://pugjs.org/">
+            <img alt="pug logo" class="hvr-grow img-fluid" src="img/pug.png"></a>
+        </div>
+      </div>
+      <div class="row d-flex flex-nowrap">
+        <div class="col-12 d-flex align-items-center flex-nowrap justify-content-center">
+          <a href="https://jquery.com/">
+            <img alt="jquery logo" class="hvr-grow img-fluid" src="img/jquery.png"></a>
+          <a href="https://git-scm.com/">
+            <img alt="git logo" class="hvr-grow img-fluid" src="img/git.png"></a>
+          <a href="https://yarnpkg.com/">
+            <img alt="yarn logo" class="hvr-grow img-fluid" src="img/yarn.png"></a>
+          <a href="https://www.w3.org/Style/CSS/">
+            <img alt="css3 logo" class="hvr-grow img-fluid" src="img/css3.png"></a>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
 
-	<section class="d-flex portfolio justify-content-center" data-id="portfolio" id="portfolio">
-		<div class="container">
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide d-flex justify-content-center">
-						<div class="title">
-							<h2 class="d-flex justify-content-start">Referral Company</h2>
-							<a class="btn btn-primary" target="_blank" href="https://www.talkable.com/">Visit
-								website</a>
-						</div>
-						<div class="d-flex justify-content-between align-items-start swiper-img-container">
-							<picture>
-								<source srcset='img/imac-talkable-homepage.webp' type='image/webp'>
-								<img class="desktop" src="img/imac-talkable-homepage.png" alt="portfolio case imac">
-							</picture>
-							
-							<div class="case">
-								<h3 class="case-title">Talkable — American product IT-company, the leading referral marketing platform.</h3>
-								<p class="case-paragraph">List of pages i've made:</p>
-								<div class="case-links-ct">
-									<a class="case-link" href="https://www.talkable.com/" target="_blank">Homepage</a>,
-									<a class="case-link" href="https://www.talkable.com/referral_program" target="_blank">Referral Program</a>,
-									<a class="case-link" href="https://www.talkable.com/customer_success" target="_blank">Customer Success</a>,
-									<a class="case-link" href="https://www.talkable.com/case_study" target="_blank">Case Studies</a>,
-									<a class="case-link" href="https://www.talkable.com/case_study/whoop" target="_blank">Whoop Case</a>,
-									<a class="case-link" href="https://www.talkable.com/case_study/pura_vida" target="_blank">Pura Vida Case</a>,
-									<a class="case-link" href="https://www.talkable.com/case_study/rhinoshield" target="_blank">Rhinoshield Case</a>,
-									<a class="case-link" href="https://www.talkable.com/case_study/outdoor" target="_blank">Outdoor Case</a>,
-									<a class="case-link" href="https://www.talkable.com/case_study/soko_glam" target="_blank">Soko glam Case</a>,
-									<a class="case-link" href="https://www.talkable.com/case_study/apparel" target="_blank">Apparel Case</a>,
-									<a class="case-link" href="https://www.talkable.com/pricing" target="_blank"> Pricing</a>
-								</div>
-								<hr>
-								<p class="case-paragraph-note">Website platform : Ruby on Rails</p>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide d-flex justify-content-center">
-						<div class="title">
-							<h2 class="d-flex justify-content-start">Accessory shop</h2>
-							<a class="btn btn-primary" href="https://iapple.in.ua/">Visit
-								website</a>
-						</div>
-						<div class="d-flex justify-content-between align-items-start swiper-img-container">
-							<picture>
-								<source srcset='img/imac-iapple.webp' type='image/webp'>
-								<img class="desktop" src="img/imac-iapple.png" alt="portfolio case imac">
-							</picture>
-							<div class="case">
-								<h3 class="case-title">iApple is small company providing a huge collection of diverse accessories for Apple products.</h3>
-								<p class="case-paragraph">This website is a fully functioning online store where you can order any accessory for your Apple device through Nova Poshta or regular delivery.</p>
-								<hr>
-								<p class="case-paragraph-note">Website platform : Wordpress</p>
-							</div>
-						</div>
-						<div class="container d-flex align-items-center justify-content-center">
-							<p class="d-flex justify-content-center"></p>
-						</div>
-					</div>
-					<div class="swiper-slide d-flex justify-content-center">
-						<div class="title">
-							<h2 class="d-flex justify-content-start">Curtains Shop</h2>
-							<a class="btn btn-primary" target="_blank" href="https://marta-deco.com/">Visit
-								website</a>
-						</div>
-						<div class="d-flex justify-content-between align-items-start swiper-img-container">
-							<picture>
-								<source srcset='img/imac-curtains-shop.webp' type='image/webp'>
-								<img class="desktop" src="img/imac-curtains-shop.png" alt="portfolio case imac">
-							</picture>
-							<div class="case">
-								<h3 class="case-title">Marta-deco is a textile salon, which provides a large selection of interior decorations.</h3>
-								<p class="case-paragraph">This page provides potential customers with address and contact information. In the future, the page will be converted for CMS and will function as an online store.</p>
-								<hr>
-								<p class="case-paragraph-note">Website platform : Landing page</p>
-							</div>
-						</div>
-						<div class="container d-flex align-items-center justify-content-center">
-							<p class="d-flex justify-content-center"></p>
-						</div>
-					</div>
-				</div>
-				<div class="swiper-pagination"></div>
-			</div>
-		</div>
-	</section>
+  <section class="d-flex portfolio justify-content-center" data-id="portfolio" id="portfolio">
+    <div class="container">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide d-flex justify-content-center">
+            <div class="title">
+              <h2 class="d-flex justify-content-start">Referral Company</h2>
+              <a class="btn btn-primary" href="https://www.talkable.com/" target="_blank">Visit
+                website</a>
+            </div>
+            <div class="d-flex justify-content-between align-items-start swiper-img-container">
+              <picture>
+                <source srcset='img/imac-talkable-homepage.webp' type='image/webp'>
+                <img alt="portfolio case imac" class="desktop" src="img/imac-talkable-homepage.png">
+              </picture>
+
+              <div class="case">
+                <h3 class="case-title">Talkable — American product IT-company, the leading referral marketing
+                  platform.</h3>
+                <p class="case-paragraph">List of pages i've made:</p>
+                <div class="case-links-ct">
+                  <a class="case-link" href="https://www.talkable.com/" target="_blank">Homepage</a>,
+                  <a class="case-link" href="https://www.talkable.com/referral_program" target="_blank">Referral
+                    Program</a>,
+                  <a class="case-link" href="https://www.talkable.com/customer_success" target="_blank">Customer
+                    Success</a>,
+                  <a class="case-link" href="https://www.talkable.com/case_study" target="_blank">Case Studies</a>,
+                  <a class="case-link" href="https://www.talkable.com/case_study/whoop" target="_blank">Whoop Case</a>,
+                  <a class="case-link" href="https://www.talkable.com/case_study/pura_vida" target="_blank">Pura Vida
+                    Case</a>,
+                  <a class="case-link" href="https://www.talkable.com/case_study/rhinoshield" target="_blank">Rhinoshield
+                    Case</a>,
+                  <a class="case-link" href="https://www.talkable.com/case_study/outdoor" target="_blank">Outdoor
+                    Case</a>,
+                  <a class="case-link" href="https://www.talkable.com/case_study/soko_glam" target="_blank">Soko glam
+                    Case</a>,
+                  <a class="case-link" href="https://www.talkable.com/case_study/apparel" target="_blank">Apparel
+                    Case</a>,
+                  <a class="case-link" href="https://www.talkable.com/pricing" target="_blank"> Pricing</a>
+                </div>
+                <hr>
+                <p class="case-paragraph-note">Website platform : Ruby on Rails</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide d-flex justify-content-center">
+            <div class="title">
+              <h2 class="d-flex justify-content-start">Accessory shop</h2>
+              <a class="btn btn-primary" href="https://iapple.in.ua/">Visit
+                website</a>
+            </div>
+            <div class="d-flex justify-content-between align-items-start swiper-img-container">
+              <picture>
+                <source srcset='img/imac-iapple.webp' type='image/webp'>
+                <img alt="portfolio case imac" class="desktop" src="img/imac-iapple.png">
+              </picture>
+              <div class="case">
+                <h3 class="case-title">iApple is small company providing a huge collection of diverse accessories for
+                  Apple products.</h3>
+                <p class="case-paragraph">This website is a fully functioning online store where you can order any
+                  accessory for your Apple device through Nova Poshta or regular delivery.</p>
+                <hr>
+                <p class="case-paragraph-note">Website platform : Wordpress</p>
+              </div>
+            </div>
+            <div class="container d-flex align-items-center justify-content-center">
+              <p class="d-flex justify-content-center"></p>
+            </div>
+          </div>
+          <div class="swiper-slide d-flex justify-content-center">
+            <div class="title">
+              <h2 class="d-flex justify-content-start">Curtains Shop</h2>
+              <a class="btn btn-primary" href="https://marta-deco.com/" target="_blank">Visit
+                website</a>
+            </div>
+            <div class="d-flex justify-content-between align-items-start swiper-img-container">
+              <picture>
+                <source srcset='img/imac-curtains-shop.webp' type='image/webp'>
+                <img alt="portfolio case imac" class="desktop" src="img/imac-curtains-shop.png">
+              </picture>
+              <div class="case">
+                <h3 class="case-title">Marta-deco is a textile salon, which provides a large selection of interior
+                  decorations.</h3>
+                <p class="case-paragraph">This page provides potential customers with address and contact information.
+                  In the future, the page will be converted for CMS and will function as an online store.</p>
+                <hr>
+                <p class="case-paragraph-note">Website platform : Landing page</p>
+              </div>
+            </div>
+            <div class="container d-flex align-items-center justify-content-center">
+              <p class="d-flex justify-content-center"></p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
 </main>
 
 </body>
