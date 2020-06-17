@@ -14,8 +14,8 @@ window.onload = function () {
   const mySwiper = new Swiper('.swiper-container', {
     observer: true,
     observeParents: true,
-    direction: 'vertical',
     slidesPerView: 'auto',
+    mousewheel: false,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -23,10 +23,7 @@ window.onload = function () {
     keyboard: {
       enabled: true,
       onlyInViewport: false,
-    },
-    mousewheel: {
-      invert: false,
-    },
+    }
   });
 
   mySwiper.on('touchStart', function () {
@@ -83,7 +80,7 @@ window.onload = function () {
     $('.mobile-nav').animate({height: '0%'}, 500);
   });
 
-  const sec = $("section.portfolio, section.technologies, section.petprojects");
+  const sec = $("section.portfolio, section.technologies");
   const header = $("nav");
   const soc = $(".social-icons");
   const main = $("main");
@@ -132,15 +129,4 @@ window.onload = function () {
       header.find(".Y").removeClass("active");
     }
   });
-
-  // setTimeout(function () {
-  // 	const preloader = $('.preloader');
-  // 	if (!preloader.hasClass('done')) {
-  // 		preloader.addClass('done');
-  // 		preloader.css('opacity', '0');
-  // 		setTimeout(function () {
-  // 			preloader.css('z-index', '0');
-  // 		}, 1000);
-  // 	}
-  // }, 1000);
 };
