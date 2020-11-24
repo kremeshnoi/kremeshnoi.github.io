@@ -38,7 +38,7 @@
 		<div class="border-top text-center">
 			<div class="row justify-content-center">
 				<div class="profile__footer col-lg-9">
-					<a href="https://kremeshnoi.github.io/outdated/docs/cv.pdf"
+					<a href="https://kremeshnoi.github.io/docs/cv.pdf"
 					   target="_blank">Show CV</a>
 				</div>
 			</div>

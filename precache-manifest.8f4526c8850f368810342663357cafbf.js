@@ -1,18 +1,18 @@
 self.__precacheManifest = [
   {
-    "revision": "a82ae1a568a430bc259c",
-    "url": "/css/app.2506268d.css"
+    "revision": "6aaa36a8c8a1e0d40f47",
+    "url": "/css/app.22ea8ffd.css"
   },
   {
-    "revision": "a82ae1a568a430bc259c",
-    "url": "/js/app.f5a59c9d.js"
+    "revision": "6aaa36a8c8a1e0d40f47",
+    "url": "/js/app.eb5af787.js"
   },
   {
     "revision": "cc23a7b5c5665aff7540",
     "url": "/js/chunk-vendors.eb061ca7.js"
   },
   {
-    "revision": "49f7733bf0edea7bf45ce63bfd92df01",
+    "revision": "9f0f80db4e8e0f0bef71b27541ef1eca",
     "url": "/index.html"
   },
   {
@@ -24,23 +24,23 @@ self.__precacheManifest = [
     "url": "/img/iapple.jpg"
   },
   {
-    "revision": "5de18ae4e6defdedadf20af6bd0b252e",
-    "url": "/img/marta-deco.jpg"
-  },
-  {
     "revision": "99d3135cca539af6e344e8a4fbd8cd04",
     "url": "/img/oldportfolio.jpg"
   },
   {
-    "revision": "b77d49168b854ce17dcd5a75434e6501",
-    "url": "/img/photo.jpg"
+    "revision": "5de18ae4e6defdedadf20af6bd0b252e",
+    "url": "/img/marta-deco.jpg"
+  },
+  {
+    "revision": "221664bb103c8803a41e616a64b4d9a0",
+    "url": "/img/talkable.jpg"
   },
   {
     "revision": "0d41db2c724f9a3dfefb58dc292a9f55",
     "url": "/img/otaku-library.jpg"
   },
   {
-    "revision": "221664bb103c8803a41e616a64b4d9a0",
-    "url": "/img/talkable.jpg"
+    "revision": "b77d49168b854ce17dcd5a75434e6501",
+    "url": "/img/photo.jpg"
   }
 ];
