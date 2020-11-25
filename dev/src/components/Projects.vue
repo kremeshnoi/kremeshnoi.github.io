@@ -13,20 +13,20 @@
 				style="max-width: 20rem;"
 				tag="article"
 				:title="projectsData.title">
-				<b-card-text>
+				<b-card-text class="font-weight-400">
 					{{ projectsData.description }}
 				</b-card-text>
-				<b-card-text v-if="projectsData.subtitle">
-					<p class="case__links-title">
-						{{ projectsData.subtitle }}
-					</p>
-					<div class="case__links">
-						<a class="case__link" target="_blank"
-							v-for="(caseData, caseIndex) in projectsData.links"
-							:href="caseData.link"> {{ caseData.title }},
-						</a>
-					</div>
-				</b-card-text>
+<!--				<b-card-text v-if="projectsData.subtitle">-->
+<!--					<p class="case__links-title font-weight-400">-->
+<!--						{{ projectsData.subtitle }}-->
+<!--					</p>-->
+<!--					<div class="case__links">-->
+<!--						<a class="case__link" target="_blank"-->
+<!--							v-for="(caseData, caseIndex) in projectsData.links"-->
+<!--							:href="caseData.link"> {{ caseData.title }},-->
+<!--						</a>-->
+<!--					</div>-->
+<!--				</b-card-text>-->
 				<b-card-text>
 					<div class="technologies">
 						<div class="technologies__container">
@@ -39,6 +39,7 @@
 				</b-card-text>
 
 				<b-button
+					class="projects__btn"
 					:href="projectsData.link"
 					target="_blank"
 					variant="primary"> Visit Website
@@ -148,12 +149,9 @@
 
 		&__container {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			grid-gap: 20px;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 8px;
 			@include mq(desktop, max) {
-				grid-template-columns: repeat(2, 1fr);
-			}
-			@include mq(tablet-small, max) {
 				grid-template-columns: repeat(1, 1fr);
 			}
 		}
@@ -162,6 +160,10 @@
 			height: min-content;
 			max-width: 100% !important;
 			border: 1px solid #e9e9e9;
+		}
+
+		&__btn {
+			font-size: 12px;
 		}
 	}
 

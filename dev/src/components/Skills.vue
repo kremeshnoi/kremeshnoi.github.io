@@ -5,7 +5,7 @@
 		</h2>
 		<div class="skills__container">
 			<div class="skills__item" v-for="(data, index) in skills" :key="index">
-				<p class="skills__description">
+				<p class="skills__description font-weight-400">
 					{{ data.title }}
 				</p>
 				<b-progress :striped="data.striped"
@@ -32,7 +32,7 @@
 					{ title: 'SASS/SCSS', value: 90, variant: 'css', striped: 'striped' },
 					{ title: 'Vue.js (Vuex, Vue Router)', value: 90, variant: 'vue', striped: 'striped' },
 					{ title: 'Nuxt.js', value: 70, variant: 'vue', striped: 'striped' },
-					{ title: 'TypeScript', value: 60, variant: 'primary', striped: 'striped' },
+					{ title: 'TypeScript', value: 50, variant: 'primary', striped: 'striped' },
 					{ title: 'Webpack', value: 70, variant: 'primary', striped: 'striped' },
 					{ title: 'Gulp', value: 70, variant: 'primary', striped: 'striped' },
 					{ title: 'Avocode, Figma, Photoshop', value: 90, variant: 'primary', striped: 'striped' },
@@ -62,7 +62,7 @@
 
 		&__container {
 			display: grid;
-			grid-gap: 20px;
+			grid-gap: 8px;
 			grid-template-columns: repeat(3, 1fr);
 			@include mq(desktop, max) {
 				grid-template-columns: repeat(2, 1fr);

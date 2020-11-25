@@ -11,9 +11,8 @@
 		</div>
 		<div class="text-center">
 			<h1 class="profile__title"> Alexander Kremeshnoi
-				<span class="font-weight-light">, 26</span>
 			</h1>
-			<div class="profile__description font-weight-300"><i class="ni location_pin"></i> Kyiv, Ukraine </div>
+			<div class="profile__description font-italic"><i class="ni location_pin"></i> 26 y.o. from Kyiv, Ukraine </div>
 			<div class="profile__description"><i class="ni business_briefcase-24"></i> Junior front-end developer </div>
 			<div class="profile__description row justify-content-center">
 				<div class="col-lg-9">
