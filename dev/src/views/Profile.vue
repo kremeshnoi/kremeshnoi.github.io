@@ -34,7 +34,7 @@
 
 <style lang="scss">
 
-	@import "src/assets/scss/bgs";
+	@import "../assets/scss/skills_backgrounds";
 	@import "src/assets/scss/utils/mixins";
 
 	.main {

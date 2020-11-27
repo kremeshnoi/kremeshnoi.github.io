@@ -66,7 +66,7 @@
 			position: static;
 			width: 100%;
 			top: 0;
-			margin: 60px 0 20px 0 !important;
+			margin: 60px 0 16px 0 !important;
 		}
 
 		&__image {

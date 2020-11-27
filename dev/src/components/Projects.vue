@@ -16,34 +16,34 @@
 				<b-card-text class="font-weight-400">
 					{{ projectsData.description }}
 				</b-card-text>
-<!--				<b-card-text v-if="projectsData.subtitle">-->
-<!--					<p class="case__links-title font-weight-400">-->
-<!--						{{ projectsData.subtitle }}-->
-<!--					</p>-->
-<!--					<div class="case__links">-->
-<!--						<a class="case__link" target="_blank"-->
-<!--							v-for="(caseData, caseIndex) in projectsData.links"-->
-<!--							:href="caseData.link"> {{ caseData.title }},-->
-<!--						</a>-->
-<!--					</div>-->
-<!--				</b-card-text>-->
-				<b-card-text>
-					<div class="technologies">
-						<div class="technologies__container">
-							<b-button class="technologies__btn"
-								v-for="(technologiesData, technologiesIndex) in projectsData.technologies"
-								variant="outline-primary"> {{ technologiesData.title }}
-							</b-button>
-						</div>
+				<b-card-text v-if="projectsData.subtitle">
+					<p class="case__links-title font-weight-400" v-html="projectsData.subtitle"></p>
+					<div class="case__links">
+						<a class="case__link" target="_blank"
+							v-for="(caseData, caseIndex) in projectsData.links"
+							:href="caseData.link"> {{ caseData.title }},
+						</a>
 					</div>
 				</b-card-text>
+				<div class="projects__footer">
+					<b-card-text>
+						<div class="technologies">
+							<div class="technologies__container">
+								<b-button class="technologies__btn"
+								          v-for="(technologiesData, technologiesIndex) in projectsData.technologies"
+								          variant="outline-primary"> {{ technologiesData.title }}
+								</b-button>
+							</div>
+						</div>
+					</b-card-text>
 
-				<b-button
-					class="projects__btn"
-					:href="projectsData.link"
-					target="_blank"
-					variant="primary"> Visit Website
-				</b-button>
+					<b-button
+						class="projects__btn"
+						:href="projectsData.link"
+						target="_blank"
+						variant="primary"> Visit Website
+					</b-button>
+				</div>
 			</b-card>
 		</div>
 	</div>
@@ -73,25 +73,14 @@
 						technologies: [
 							{ title: "Ruby on Rails" },
 							{ title: "CoffeeScript" },
-							{ title: "JavaScript" },
 							{ title: "Haml" },
 							{ title: "OOCSS" },
 							{ title: "SASS" }
 						]
 					},
-					{ title: "iApple", description: "This website is an online store where you can order any " +
-							"accessory for your Apple device through Nova Poshta or regular delivery.",
-						link: "https://iapple.in.ua", img: "img/iapple.jpg",
-						technologies: [
-							{ title: "WordPress" },
-							{ title: "JavaScript" },
-							{ title: "PHP" },
-							{ title: "MySql" },
-							{ title: "Vanilla CSS" }
-						]
-					},
-					{ title: "Otaku Library", description: "Organize your own anime and manga list with this application." +
-							"Inspired by MAL and Shikimori. Using the Jikan API (Unofficial MyAnimeList API).",
+					{ title: "Otaku Library", description: "Organize your own anime and manga list with this application. " +
+							 "Inspired by MAL and Shikimori. Using the Jikan API (Unofficial MyAnimeList API).",
+						subtitle: "Also available as a showcase at <a href='https://jikan.moe/showcase'>jikan.moe/showcase</a>.",
 						link: "https://otaku-library.one", img: "img/otaku-library.jpg",
 						technologies: [
 							{ title: "Vue.js" },
@@ -104,6 +93,16 @@
 							{ title: "Materialize" },
 							{ title: "Firebase" },
 							{ title: "Jikan-API" }
+						]
+					},
+					{ title: "iApple", description: "This website is an online store where you can order any " +
+							"accessory for your Apple device through Nova Poshta or regular delivery.",
+						link: "https://iapple.in.ua", img: "img/iapple.jpg",
+						technologies: [
+							{ title: "WordPress" },
+							{ title: "JavaScript" },
+							{ title: "PHP" },
+							{ title: "Vanilla CSS" }
 						]
 					},
 					{ title: "Marta Deco", description: "Landing page written for a textile salon.",
@@ -141,7 +140,7 @@
 
 	.projects {
 		width: 100%;
-		padding: 20px 0;
+		padding: 10px 0;
 
 		&__title {
 			margin: 0 0 30px 0;
@@ -156,14 +155,26 @@
 			}
 		}
 
+		.card-body {
+			display: flex;
+			flex-direction: column;
+		}
+
+		&__footer {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-end;
+			height: 100%;
+		}
+
 		&__card {
-			height: min-content;
 			max-width: 100% !important;
 			border: 1px solid #e9e9e9;
 		}
 
 		&__btn {
-			font-size: 12px;
+			font-size: 10px;
 		}
 	}
 

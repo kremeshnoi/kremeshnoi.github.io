@@ -23,7 +23,7 @@
 <style lang="scss" scoped>
 
 	.about {
-		padding: 20px 0;
+		padding: 10px 0;
 
 		&__title {
 			margin: 0 0 30px 0;
@@ -32,6 +32,7 @@
 		&__description {
 			margin: 0;
 			font-size: 18px;
+			line-height: 28px;
 		}
 	}
 
