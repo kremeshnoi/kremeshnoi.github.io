@@ -1,4 +1,3 @@
-import "@/assets/scss/argon.scss";
 import VueLazyload from "vue-lazyload";
 
 export default {

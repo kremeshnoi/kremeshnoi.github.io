@@ -8,6 +8,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import "./assets/scss/argon.scss"
+import "./assets/scss/base/base.scss";
 
 library.add(faGithub);
 library.add(faLinkedinIn);

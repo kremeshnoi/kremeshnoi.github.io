@@ -1,24 +1,7 @@
-// Core
-
-@import "bootstrap/functions";
-@import "custom/variables";
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
-
-
-// Bootstrap components
-
-@import "bootstrap/reboot";
-@import "bootstrap/type";
-@import "bootstrap/grid";
-@import "bootstrap/buttons";
-@import "bootstrap/card";
-@import "bootstrap/progress";
-@import "bootstrap/utilities";
-
-// Custom components
-
-@import "custom/buttons.scss";
-@import "custom/card.scss";
-@import "custom/progress.scss";
-@import "custom/type.scss";
+@import "~bootstrap/scss/bootstrap", "~bootstrap/scss/functions", "~bootstrap/scss/variables", "~bootstrap/scss/mixins";
+@import "./custom/_variables.scss";
+@import "./custom/_type.scss";
+@import "./custom/_card.scss";
+@import "./custom/_progress.scss";
+@import "./base/base.scss";
+@import "./modules/buttons";
