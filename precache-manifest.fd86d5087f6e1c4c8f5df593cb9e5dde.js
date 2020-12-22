@@ -1,18 +1,18 @@
 self.__precacheManifest = [
   {
-    "revision": "78319143574405a45096",
-    "url": "/css/app.7ea74da1.css"
+    "revision": "08af2c1f36a33a522bb6",
+    "url": "/css/app.4af6be4e.css"
   },
   {
-    "revision": "78319143574405a45096",
-    "url": "/js/app.18351727.js"
+    "revision": "08af2c1f36a33a522bb6",
+    "url": "/js/app.66d7a3bc.js"
   },
   {
     "revision": "cc23a7b5c5665aff7540",
     "url": "/js/chunk-vendors.eb061ca7.js"
   },
   {
-    "revision": "3b8d3a8bd71a869f3a8f4b0aed2f2cca",
+    "revision": "c8f04eb8ab83867ba5ad1558b322bf84",
     "url": "/index.html"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/img/photo.jpg"
   },
   {
-    "revision": "0d41db2c724f9a3dfefb58dc292a9f55",
-    "url": "/img/otaku-library.jpg"
-  },
-  {
     "revision": "763dfb435645bef9b3d963d9bdbca15e",
     "url": "/service-worker.js"
+  },
+  {
+    "revision": "0d41db2c724f9a3dfefb58dc292a9f55",
+    "url": "/img/otaku-library.jpg"
   },
   {
     "revision": "221664bb103c8803a41e616a64b4d9a0",
