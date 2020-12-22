@@ -1,0 +1,26 @@
+@import "src/assets/styles/argon";
+
+body {
+	font-family: Open Sans, sans-serif;
+	color: #525f7f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	color: #32325d;
+}
+
+a {
+	color: #5e72e4;
+	text-decoration: none;
+	background-color: transparent;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+p {
+	font-size: $paragraph-font-size;
+	font-weight: $paragraph-font-weight;
+	line-height: $paragraph-line-height;
+}

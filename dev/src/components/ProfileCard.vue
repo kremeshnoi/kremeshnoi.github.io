@@ -60,7 +60,7 @@
 
 <style lang="scss" scoped>
 
-	@import "src/assets/scss/utils/mixins";
+	@import "../assets/styles/utils/mixins";
 
 	.profile {
 		width: 340px;

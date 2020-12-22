@@ -150,7 +150,57 @@ export default {
 
 <style lang="scss" scoped>
 
-@import "src/assets/scss/utils/mixins";
+@import "../assets/styles/utils/mixins";
+
+.btn {
+	position: relative;
+	text-transform: uppercase;
+	-webkit-transition: all .15s ease;
+	transition: all .15s ease;
+	will-change: transform;
+	letter-spacing: .025em;
+	font-size: .875rem;
+	display: inline-block;
+	font-weight: 600;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .625rem 1.25rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	-webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	&:hover {
+		background-color: #5e72e4;
+	}
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #5e72e4;
+	border-color: #5e72e4;
+	-webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	&:hover {
+		transition: 0.2s ease-in-out;
+		transform: translateY(-2px);
+	}
+}
+
+.btn-outline-primary {
+	color: #5e72e4;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid #5e72e4;;
+}
 
 .projects {
 	width: 100%;

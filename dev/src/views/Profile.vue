@@ -34,7 +34,7 @@
 
 <style lang="scss">
 
-	@import "src/assets/scss/utils/mixins";
+	@import "../assets/styles/utils/mixins";
 
 	.main {
 		max-width: calc(100% - 400px);
