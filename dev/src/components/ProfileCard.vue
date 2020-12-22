@@ -47,8 +47,13 @@
 
 <script>
 
+	import Card from "@/components/Card";
+
 	export default {
-		name: "ProfileCard"
+		name: "ProfileCard",
+		components: {
+			Card
+		}
 	}
 
 </script>
