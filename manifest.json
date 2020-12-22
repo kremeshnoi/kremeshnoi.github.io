@@ -1,8 +1,8 @@
 {
-  "app.css": "/css/app.adc488e1.css",
-  "app.js": "/js/app.6436d138.js",
-  "app.css.map": "/css/app.adc488e1.css.map",
-  "app.js.map": "/js/app.6436d138.js.map",
+  "app.css": "/css/app.7ea74da1.css",
+  "app.js": "/js/app.18351727.js",
+  "app.css.map": "/css/app.7ea74da1.css.map",
+  "app.js.map": "/js/app.18351727.js.map",
   "chunk-vendors.js": "/js/chunk-vendors.eb061ca7.js",
   "chunk-vendors.js.map": "/js/chunk-vendors.eb061ca7.js.map",
   "favicon.ico": "/favicon.ico",
@@ -14,6 +14,6 @@
   "img/photo.jpg": "/img/photo.jpg",
   "img/talkable.jpg": "/img/talkable.jpg",
   "index.html": "/index.html",
-  "precache-manifest.js": "/precache-manifest.a26a21b47772b7b4a785521a8b361dee.js",
+  "precache-manifest.js": "/precache-manifest.c167ec55fae952d4839b1c01363c0e47.js",
   "service-worker.js": "/service-worker.js"
 }
