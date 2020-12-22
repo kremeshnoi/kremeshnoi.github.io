@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.72ea412775040c03f1554f85df37e00c.js"
+  "/precache-manifest.a26a21b47772b7b4a785521a8b361dee.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "kremeshoi"});
