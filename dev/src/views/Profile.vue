@@ -34,7 +34,6 @@
 
 <style lang="scss">
 
-	@import "../assets/scss/skills_backgrounds";
 	@import "src/assets/scss/utils/mixins";
 
 	.main {
@@ -54,6 +53,26 @@
 		width: 100%;
 		margin: 40px auto 40px auto!important;
 		padding: 0 40px;
+	}
+
+	.bg-html {
+		background-color: #e1601a !important;
+	}
+
+	.bg-css {
+		background-color: #c06395 !important;
+	}
+
+	.bg-js{
+		background-color: #d2bf00 !important;
+	}
+
+	.bg-vue{
+		background-color: #52b27d !important;
+	}
+
+	.bg-html {
+		background-color: #e1601a !important;
 	}
 
 </style>
