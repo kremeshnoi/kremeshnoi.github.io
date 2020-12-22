@@ -1,13 +1,13 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import Argon from "./plugins/argon-kit";
 import './registerServiceWorker';
+import Argon from "./plugins/argon-kit";
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 library.add(faGithub);
 library.add(faLinkedinIn);
