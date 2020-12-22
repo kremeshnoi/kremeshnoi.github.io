@@ -16,7 +16,8 @@
     "vue": "^2.6.6",
     "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.2",
-    "vue2-transitions": "^0.2.3"
+    "vue2-transitions": "^0.2.3",
+    "webpack-manifest-plugin": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
