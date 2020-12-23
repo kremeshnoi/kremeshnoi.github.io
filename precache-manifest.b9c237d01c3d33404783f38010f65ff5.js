@@ -1,31 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "6a187f97f892207672e2",
-    "url": "/css/app.5949a8fe.css"
+    "revision": "eb67c37b9a53c2687a73",
+    "url": "/css/app.9308db28.css"
   },
   {
-    "revision": "6a187f97f892207672e2",
-    "url": "/js/app.cb03d8ce.js"
+    "revision": "eb67c37b9a53c2687a73",
+    "url": "/js/app.5c9b6496.js"
   },
   {
     "revision": "b6dd01ded96c6b840c56",
     "url": "/js/chunk-vendors.fc2c6a7e.js"
   },
   {
-    "revision": "f59d41c9c2c700bdfbe1774f97af12f1",
+    "revision": "7e7297cdd20e7ae50429d6d3c254a490",
     "url": "/index.html"
   },
   {
-    "revision": "cf973727bfe81647d528d5f1f0a2d6ab",
-    "url": "/favicon.png"
+    "revision": "9675d5ec8a6d04c55d73fdf397aef3da",
+    "url": "/img/fl.ru-icon.jpg"
   },
   {
     "revision": "5f09c7a8f8134722305aa60294afc26f",
     "url": "/img/current-portfolio.jpg"
   },
   {
-    "revision": "9675d5ec8a6d04c55d73fdf397aef3da",
-    "url": "/img/fl.ru-icon.jpg"
+    "revision": "cf973727bfe81647d528d5f1f0a2d6ab",
+    "url": "/favicon.png"
   },
   {
     "revision": "3b6bf81e624e4c69e00a0430cb4da059",
@@ -34,10 +34,6 @@ self.__precacheManifest = [
   {
     "revision": "01425a965c0552190de143bbc97191be",
     "url": "/img/iapple.jpg"
-  },
-  {
-    "revision": "5de18ae4e6defdedadf20af6bd0b252e",
-    "url": "/img/marta-deco.jpg"
   },
   {
     "revision": "14c08c90e3aee8ba6bae124e8a0ef89b",
@@ -58,6 +54,10 @@ self.__precacheManifest = [
   {
     "revision": "586f185c1ea3a82cfda327ee6494d8a5",
     "url": "/img/talkable-icon.jpg"
+  },
+  {
+    "revision": "5de18ae4e6defdedadf20af6bd0b252e",
+    "url": "/img/marta-deco.jpg"
   },
   {
     "revision": "0d41db2c724f9a3dfefb58dc292a9f55",
