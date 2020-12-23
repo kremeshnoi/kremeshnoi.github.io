@@ -155,7 +155,7 @@ export default {
 				},
 				{
 					title: "Product Cards", description: "Test task for the implementation of product cards.",
-					link: "https://product-cards.vercel.app/", img: "img/product-cards.jpg",
+					link: "https://product-cards.vercel.app", img: "img/product-cards.jpg",
 					technologies: [
 						{title: "Vue.js"},
 						{title: "Vue Router"},

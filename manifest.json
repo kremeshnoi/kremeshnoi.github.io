@@ -1,8 +1,8 @@
 {
-  "app.css": "/css/app.c74b6d49.css",
-  "app.js": "/js/app.e3582862.js",
-  "app.css.map": "/css/app.c74b6d49.css.map",
-  "app.js.map": "/js/app.e3582862.js.map",
+  "app.css": "/css/app.916aedef.css",
+  "app.js": "/js/app.dd9ea449.js",
+  "app.css.map": "/css/app.916aedef.css.map",
+  "app.js.map": "/js/app.dd9ea449.js.map",
   "chunk-vendors.js": "/js/chunk-vendors.fc2c6a7e.js",
   "chunk-vendors.js.map": "/js/chunk-vendors.fc2c6a7e.js.map",
   "favicon.ico": "/favicon.ico",
@@ -13,8 +13,9 @@
   "img/old-portfolio.jpg": "/img/old-portfolio.jpg",
   "img/otaku-library.jpg": "/img/otaku-library.jpg",
   "img/photo.jpg": "/img/photo.jpg",
+  "img/product-cards.jpg": "/img/product-cards.jpg",
   "img/talkable.jpg": "/img/talkable.jpg",
   "index.html": "/index.html",
-  "precache-manifest.js": "/precache-manifest.40f96e6d6036e5acf65b3ff36d562526.js",
+  "precache-manifest.js": "/precache-manifest.194e7db51b4cd10e5b483e4721bfc8e8.js",
   "service-worker.js": "/service-worker.js"
 }
