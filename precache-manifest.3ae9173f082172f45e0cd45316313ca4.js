@@ -1,18 +1,18 @@
 self.__precacheManifest = [
   {
-    "revision": "8d3a19f76f9266fcaa38",
-    "url": "/css/app.7da53b75.css"
+    "revision": "e5e824ad94363175e7b2",
+    "url": "/css/app.84b25536.css"
   },
   {
-    "revision": "8d3a19f76f9266fcaa38",
-    "url": "/js/app.38118095.js"
+    "revision": "e5e824ad94363175e7b2",
+    "url": "/js/app.dabddcc2.js"
   },
   {
     "revision": "b6dd01ded96c6b840c56",
     "url": "/js/chunk-vendors.fc2c6a7e.js"
   },
   {
-    "revision": "3c8532526cbf266bc67d9f04cba53e35",
+    "revision": "93983e91d7855ee00201e6f740d14aee",
     "url": "/index.html"
   },
   {
@@ -32,16 +32,12 @@ self.__precacheManifest = [
     "url": "/img/old-portfolio.jpg"
   },
   {
-    "revision": "fc1d5041828c971c9e5558ed658b6b7d",
-    "url": "/img/photo.jpg"
-  },
-  {
-    "revision": "763dfb435645bef9b3d963d9bdbca15e",
-    "url": "/service-worker.js"
-  },
-  {
     "revision": "5de18ae4e6defdedadf20af6bd0b252e",
     "url": "/img/marta-deco.jpg"
+  },
+  {
+    "revision": "fc1d5041828c971c9e5558ed658b6b7d",
+    "url": "/img/photo.jpg"
   },
   {
     "revision": "0d41db2c724f9a3dfefb58dc292a9f55",
@@ -50,5 +46,9 @@ self.__precacheManifest = [
   {
     "revision": "221664bb103c8803a41e616a64b4d9a0",
     "url": "/img/talkable.jpg"
+  },
+  {
+    "revision": "763dfb435645bef9b3d963d9bdbca15e",
+    "url": "/service-worker.js"
   }
 ];
