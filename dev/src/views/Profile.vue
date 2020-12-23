@@ -8,6 +8,8 @@
 
 			<Skills/>
 
+			<Timeline/>
+
 			<Projects/>
 
 		</section>
@@ -21,9 +23,11 @@
 	import Skills from "@/components/Skills";
 	import Projects from "@/components/Projects";
 	import ProfileCard from "@/components/ProfileCard";
+	import Timeline from "@/components/Timeline";
 
 	export default {
 		components: {
+			Timeline,
 			About,
 			Skills,
 			Projects,
