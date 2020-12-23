@@ -9,8 +9,7 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome';
 import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 
-import "./assets/styles/argon.scss"
-import "./assets/styles/base/base.scss";
+import "./assets/styles/index.scss"
 
 library.add(faGithub);
 library.add(faLinkedinIn);

@@ -32,7 +32,7 @@
 // Component options
 
 export default {
-	name: "Сard",
+	name: "card",
 	props: {
 		type: {
 			type: String,
@@ -75,3 +75,81 @@ export default {
 };
 
 </script>
+
+<style lang="scss" scoped>
+
+@import "../assets/styles/index";
+
+.card {
+	position: relative;
+}
+
+.profile-page {
+	.card-profile {
+		margin-top: -150px;
+
+		.card-profile-image {
+			position: relative;
+			//min-height: 130px;
+
+			img {
+				max-width: 180px;
+				border-radius: $border-radius;
+				@extend .shadow;
+				transform: translate(-50%, -30%);
+				position: absolute;
+				left: 50%;
+				transition: $transition-base;
+
+				&:hover {
+					transform: translate(-50%, -33%);
+				}
+			}
+		}
+
+		.card-profile-stats {
+			padding: 1rem 0;
+
+			> div {
+				text-align: center;
+				margin-right: 1rem;
+				padding: .875rem;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				.heading {
+					font-size: 1.1rem;
+					font-weight: bold;
+					display: block;
+				}
+
+				.description {
+					font-size: .875rem;
+					color: $gray-500;
+				}
+			}
+		}
+
+		.card-profile-actions {
+			padding: .875rem;
+		}
+
+		@include media-breakpoint-down(xs) {
+			.card-profile-actions {
+				margin-top: 110px;
+			}
+		}
+
+		@include media-breakpoint-between(sm, md) {
+			.card-profile-stats {
+				margin-top: 30px;
+			}
+		}
+	}
+}
+
+
+
+</style>

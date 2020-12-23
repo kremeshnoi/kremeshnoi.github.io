@@ -53,7 +53,7 @@ export default {
 
 // Imports
 
-@import "../assets/styles/argon";
+@import "../assets/styles/index";
 @import "../assets/styles/utils/mixins";
 
 // Skills styles
