@@ -1,40 +1,49 @@
 <template>
+
 	<div id="projects" class="projects">
 		<h2 class="projects__title">
 			My projects
 		</h2>
+
 		<div class="projects__container">
-			<b-card v-for="(projectsData, projectsIndex) in projects"
-			        :key="projectsIndex"
-			        :img-src="projectsData.img"
-			        :title="projectsData.title"
-			        class="projects__card"
-			        img-alt="Image"
-			        img-top
-			        style="max-width: 20rem;"
-			        tag="article">
+			<b-card
+					v-for="(projectsData, projectsIndex) in projects"
+					:key="projectsIndex"
+					:img-src="projectsData.img"
+					:title="projectsData.title"
+					class="projects__card"
+					img-alt="Image"
+					img-top
+					style="max-width: 20rem;"
+					tag="article">
+
 				<b-card-text class="font-weight-400">
 					{{ projectsData.description }}
 				</b-card-text>
+
 				<b-card-text v-if="projectsData.subtitle">
 					<p class="case__links-title font-weight-400" v-html="projectsData.subtitle"></p>
+
 					<div class="case__links">
-						<a v-for="(caseData, caseIndex) in projectsData.links"
-						   :key="caseIndex"
-						   :href="caseData.link"
-						   class="case__link"
-						   target="_blank"> {{ caseData.title }},
+						<a
+								v-for="(caseData, caseIndex) in projectsData.links"
+								:key="caseIndex"
+								:href="caseData.link"
+								class="case__link"
+								target="_blank"> {{ caseData.title }},
 						</a>
 					</div>
 				</b-card-text>
+
 				<div class="projects__footer">
 					<b-card-text>
 						<div class="technologies">
 							<div class="technologies__container">
-								<b-button v-for="(technologiesData, technologiesIndex) in projectsData.technologies"
-								          :key="technologiesIndex"
-								          class="technologies__btn"
-								          variant="outline-primary"> {{ technologiesData.title }}
+								<b-button
+										v-for="(technologiesData, technologiesIndex) in projectsData.technologies"
+										:key="technologiesIndex"
+										class="projects__btn technologies__btn"
+										variant="outline-primary"> {{ technologiesData.title }}
 								</b-button>
 							</div>
 						</div>
@@ -50,9 +59,12 @@
 			</b-card>
 		</div>
 	</div>
+
 </template>
 
 <script>
+
+// Component options
 
 export default {
 	name: "Projects",
@@ -150,57 +162,11 @@ export default {
 
 <style lang="scss" scoped>
 
+// Imports
+
 @import "../assets/styles/utils/mixins";
 
-.btn {
-	position: relative;
-	text-transform: uppercase;
-	-webkit-transition: all .15s ease;
-	transition: all .15s ease;
-	will-change: transform;
-	letter-spacing: .025em;
-	font-size: .875rem;
-	display: inline-block;
-	font-weight: 600;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	border: 1px solid transparent;
-	padding: .625rem 1.25rem;
-	font-size: 1rem;
-	line-height: 1.5;
-	border-radius: .25rem;
-	-webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-	&:hover {
-		background-color: #5e72e4;
-	}
-}
-
-.btn-primary {
-	color: #fff;
-	background-color: #5e72e4;
-	border-color: #5e72e4;
-	-webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-	&:hover {
-		transition: 0.2s ease-in-out;
-		transform: translateY(-2px);
-	}
-}
-
-.btn-outline-primary {
-	color: #5e72e4;
-	background-color: transparent;
-	background-image: none;
-	border: 1px solid #5e72e4;;
-}
+// Projects styles
 
 .projects {
 	width: 100%;
@@ -238,9 +204,38 @@ export default {
 	}
 
 	&__btn {
+		position: relative;
+		text-transform: uppercase;
+		transition: all .15s ease;
+		will-change: transform;
+		letter-spacing: .025em;
+		font-size: .875rem;
+		display: inline-block;
+		font-weight: 600;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		user-select: none;
+		border: 1px solid transparent;
+		padding: .625rem 1.25rem;
+		line-height: 1.5;
+		border-radius: .25rem;
+		transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 		font-size: 10px;
+		color: #fff;
+		background-color: #5e72e4;
+		border-color: #5e72e4;
+		box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+
+		&:hover {
+			background-color: #5e72e4;
+			transition: 0.2s ease-in-out;
+			transform: translateY(-2px);
+		}
 	}
 }
+
+// Technologies styles
 
 .technologies {
 	&__container {
@@ -252,6 +247,10 @@ export default {
 		font-size: 10px !important;
 		padding: 6px !important;
 		margin: 4px;
+		color: #5e72e4;
+		background-color: transparent;
+		background-image: none;
+		border: 1px solid #5e72e4;;
 
 		&:hover {
 			transform: none !important;
@@ -259,9 +258,7 @@ export default {
 	}
 }
 
-.card-text {
-	font-weight: 400;
-}
+// Case styles
 
 .case {
 	&__links-title {
