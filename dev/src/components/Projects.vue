@@ -106,7 +106,7 @@ export default {
 					technologies: [
 						{title: "Vue.js"},
 						{title: "Vuex"},
-						{title: "Vue-Router"},
+						{title: "Vue Router"},
 						{title: "JavaScript"},
 						{title: "Pug"},
 						{title: "BEM"},
@@ -141,6 +141,31 @@ export default {
 					]
 				},
 				{
+					title: "Old Portfolio",
+					description: "My old portfolio site, where you can find both pet and production projects.",
+					link: "https://kremeshnoi.github.io/outdated",
+					img: "img/old-portfolio.jpg",
+					technologies: [
+						{title: "Vanilla CSS"},
+						{title: "JQuery"},
+						{title: "Bootstrap"},
+						{title: "JavaScript"},
+						{title: "Gulp"}
+					]
+				},
+				{
+					title: "Product Cards", description: "Test task for the implementation of product cards.",
+					link: "https://product-cards.vercel.app/", img: "img/product-cards.jpg",
+					technologies: [
+						{title: "Vue.js"},
+						{title: "Vue Router"},
+						{title: "Vuex"},
+						{title: "JavaScript"},
+						{title: "SCSS"},
+						{title: "BEM"}
+					]
+				},
+				{
 					title: "My new Portfolio",
 					description: "My portfolio site you are on right now.",
 					link: "https://kremeshnoi.github.io",
@@ -152,19 +177,6 @@ export default {
 						{title: "BEM"},
 						{title: "Bootstrap"},
 						{title: "BootstrapVue"}
-					]
-				},
-				{
-					title: "Old Portfolio",
-					description: "My old portfolio site, where you can find both pet and production projects.",
-					link: "https://kremeshnoi.github.io/outdated",
-					img: "img/old-portfolio.jpg",
-					technologies: [
-						{title: "Vanilla CSS"},
-						{title: "JQuery"},
-						{title: "Bootstrap"},
-						{title: "JavaScript"},
-						{title: "Gulp"}
 					]
 				}
 			]
