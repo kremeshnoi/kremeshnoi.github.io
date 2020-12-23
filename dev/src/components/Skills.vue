@@ -89,7 +89,6 @@ export default {
 
 // Imports
 
-@import "../assets/styles/index";
 @import "../assets/styles/utils/mixins";
 
 // Skills styles

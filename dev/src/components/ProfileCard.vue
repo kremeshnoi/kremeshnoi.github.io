@@ -72,7 +72,6 @@ export default {
 
 // Imports
 
-@import "../assets/styles/index";
 @import "../assets/styles/utils/mixins";
 
 // Profile styles
@@ -96,12 +95,12 @@ export default {
 
 		img {
 			max-width: 180px;
-			border-radius: $border-radius;
-			@extend .shadow;
+			border-radius: 4px;
 			transform: translate(-50%, -30%);
 			position: absolute;
 			left: 50%;
-			transition: $transition-base;
+			transition: 1s;
+			box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 
 			&:hover {
 				transform: translate(-50%, -33%);
