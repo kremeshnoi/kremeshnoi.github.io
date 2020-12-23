@@ -83,7 +83,7 @@ export default {
 	}
 
 	&__progress {
-		height: 10px;
+		height: 8px;
 		margin: 0 0 20px 0;
 	}
 }
