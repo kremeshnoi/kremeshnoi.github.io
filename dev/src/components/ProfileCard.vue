@@ -72,6 +72,7 @@ export default {
 
 // Imports
 
+@import "../assets/styles/index";
 @import "../assets/styles/utils/mixins";
 
 // Profile styles
@@ -80,6 +81,7 @@ export default {
 	width: 340px;
 	position: fixed;
 	top: 120px;
+	margin-top: -150px;
 	margin: 0 !important;
 	@include mq(tablet-mid, max) {
 		position: static;
@@ -90,6 +92,21 @@ export default {
 
 	&__image {
 		margin-bottom: 100px;
+		position: relative;
+
+		img {
+			max-width: 180px;
+			border-radius: $border-radius;
+			@extend .shadow;
+			transform: translate(-50%, -30%);
+			position: absolute;
+			left: 50%;
+			transition: $transition-base;
+
+			&:hover {
+				transform: translate(-50%, -33%);
+			}
+		}
 	}
 
 	&__circle {
