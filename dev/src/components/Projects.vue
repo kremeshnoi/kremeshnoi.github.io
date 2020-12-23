@@ -141,10 +141,24 @@ export default {
 					]
 				},
 				{
+					title: "My new Portfolio",
+					description: "My portfolio site you are on right now.",
+					link: "https://kremeshnoi.github.io",
+					img: "img/current-portfolio.jpg",
+					technologies: [
+						{title: "Vue.js"},
+						{title: "JavaScript"},
+						{title: "SCSS"},
+						{title: "BEM"},
+						{title: "Bootstrap"},
+						{title: "BootstrapVue"}
+					]
+				},
+				{
 					title: "Old Portfolio",
 					description: "My old portfolio site, where you can find both pet and production projects.",
 					link: "https://kremeshnoi.github.io/outdated",
-					img: "img/oldportfolio.jpg",
+					img: "img/old-portfolio.jpg",
 					technologies: [
 						{title: "Vanilla CSS"},
 						{title: "JQuery"},
