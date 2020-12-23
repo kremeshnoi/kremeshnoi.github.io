@@ -28,10 +28,6 @@ self.__precacheManifest = [
     "url": "/img/iapple.jpg"
   },
   {
-    "revision": "99d3135cca539af6e344e8a4fbd8cd04",
-    "url": "/img/old-portfolio.jpg"
-  },
-  {
     "revision": "5de18ae4e6defdedadf20af6bd0b252e",
     "url": "/img/marta-deco.jpg"
   },
@@ -40,15 +36,19 @@ self.__precacheManifest = [
     "url": "/img/photo.jpg"
   },
   {
+    "revision": "99d3135cca539af6e344e8a4fbd8cd04",
+    "url": "/img/old-portfolio.jpg"
+  },
+  {
+    "revision": "763dfb435645bef9b3d963d9bdbca15e",
+    "url": "/service-worker.js"
+  },
+  {
     "revision": "0d41db2c724f9a3dfefb58dc292a9f55",
     "url": "/img/otaku-library.jpg"
   },
   {
     "revision": "221664bb103c8803a41e616a64b4d9a0",
     "url": "/img/talkable.jpg"
-  },
-  {
-    "revision": "763dfb435645bef9b3d963d9bdbca15e",
-    "url": "/service-worker.js"
   }
 ];
