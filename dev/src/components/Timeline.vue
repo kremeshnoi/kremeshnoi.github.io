@@ -1,6 +1,6 @@
 <template>
 
-	<div class="timeline">
+	<div id="timeline" class="timeline">
 		<h2 class="timeline__title">
 			Timeline
 		</h2>
@@ -90,7 +90,7 @@
 			content: '';
 			position: absolute;
 			width: 8px;
-			background-color: #ebedee !important;
+			background-color: #ebebeb;
 			top: 0;
 			bottom: 0;
 			left: 50%;
@@ -135,7 +135,7 @@
 		background-color: white;
 		position: relative;
 		border-radius: 6px;
-		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 		@include mq(tablet, max) {
 			margin: 20px 0;
 		}

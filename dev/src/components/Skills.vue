@@ -1,6 +1,6 @@
 <template>
 
-	<div class="skills">
+	<div id="skills" class="skills">
 		<h2 class="skills__title">
 			Most related skills
 		</h2>
