@@ -19,6 +19,23 @@
 				</b-progress>
 			</div>
 		</div>
+
+		<h2 class="skills__title skills__title-worked-with">
+			Worked with
+		</h2>
+		<div class="skills__container">
+			<div v-for="(dataWorkedWith, indexWorkedWith) in workedWith" :key="indexWorkedWith" class="skills__item">
+				<p class="skills__description font-weight-400">
+					{{ dataWorkedWith.title }}
+				</p>
+				<b-progress
+						class="skills__progress"
+						:striped="dataWorkedWith.striped"
+						:value="dataWorkedWith.value"
+						:variant="dataWorkedWith.variant">
+				</b-progress>
+			</div>
+		</div>
 	</div>
 
 </template>
@@ -41,7 +58,26 @@ export default {
 				{title: 'Vue.js (Vuex, Vue Router)', value: 70, variant: 'vue', striped: 'striped'},
 				{title: 'Nuxt.js', value: 50, variant: 'vue', striped: 'striped'},
 				{title: 'TypeScript', value: 50, variant: 'primary', striped: 'striped'},
-				{title: 'Git, Github', value: 70, variant: 'dark', striped: 'striped'}
+				{title: 'Git, Github', value: 70, variant: 'dark', striped: 'striped'},
+			],
+			workedWith: [
+				{title: 'Haml', value: 70, variant: 'primary', striped: 'striped'},
+				{title: 'CoffeeScript', value: 70, variant: 'primary', striped: 'striped'},
+				{title: 'Ruby on Rails', value: 50, variant: 'primary', striped: 'striped'},
+				{title: 'Node.js', value: 50, variant: 'primary', striped: 'striped'},
+				{title: 'Express.js', value: 50, variant: 'primary', striped: 'striped'},
+				{title: 'MongoDB', value: 50, variant: 'primary', striped: 'striped'},
+				{title: 'Mongoose ODM', value: 50, variant: 'primary', striped: 'striped'},
+				{title: 'SQLite', value: 50, variant: 'primary', striped: 'striped'},
+				{title: 'Firebase (BaaS)', value: 50, variant: 'primary', striped: 'striped'},
+				{title: 'Webpack', value: 70, variant: 'primary', striped: 'striped'},
+				{title: 'Gulp', value: 70, variant: 'primary', striped: 'striped'},
+				{title: 'jQuery', value: 90, variant: 'primary', striped: 'striped'},
+				{title: 'Avocode, Figma, Photoshop', value: 90, variant: 'primary', striped: 'striped'},
+				{title: 'Materialize', value: 90, variant: 'primary', striped: 'striped'},
+				{title: 'Bootstrap', value: 90, variant: 'primary', striped: 'striped'},
+				{title: 'BootstrapVue', value: 90, variant: 'primary', striped: 'striped'},
+				{title: 'Vuetify', value: 90, variant: 'primary', striped: 'striped'}
 			]
 		}
 	}
@@ -63,6 +99,10 @@ export default {
 
 	&__title {
 		margin: 0 0 30px 0;
+	}
+
+	&__title-worked-with {
+		padding-top: 20px;
 	}
 
 	&__description {
