@@ -30,7 +30,7 @@ export default {
 // About styles
 
 .about {
-	padding: 10px 0;
+	padding: 15px 0 15px 0;
 
 	&__title {
 		margin: 0 0 30px 0;

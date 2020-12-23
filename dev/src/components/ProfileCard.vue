@@ -18,8 +18,9 @@
 			<div class="profile__description row justify-content-center">
 
 				<div class="col-lg-9">
-					<a class="profile__nav-item" href="#about"> About </a> |
-					<a class="profile__nav-item" href="#skills"> Skills </a> |
+					<a class="profile__nav-item" href="#about"> About </a>
+					<a class="profile__nav-item" href="#skills"> Skills </a>
+					<br>
 					<a class="profile__nav-item" href="#timeline"> Timeline </a>
 					<a class="profile__nav-item" href="#projects"> Projects </a>
 				</div>
@@ -92,7 +93,7 @@ export default {
 	}
 
 	&__nav-item {
-		margin: 4px
+		margin: 4px;
 	}
 
 	&__image {

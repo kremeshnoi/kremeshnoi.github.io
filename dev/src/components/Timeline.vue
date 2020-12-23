@@ -36,7 +36,7 @@
 						<p class="timeline__description">Self-employed. Freelance</p>
 					</div>
 
-					<p class="timeline__description">Kyiv, Kyiv City, Ukraine</p>
+					<p class="timeline__description">Kharkiv, Kharkiv City, Ukraine</p>
 				</div>
 			</div>
 		</div>
@@ -64,7 +64,7 @@
 // Timeline styles
 
 .timeline {
-	padding: 10px 0 10px 0;
+	padding: 15px 0 15px 0;
 	position: relative;
 	max-width: 920px;
 	margin: 0 auto;
@@ -81,35 +81,22 @@
 
 	&__description {
 		font-size: 16px;
-		margin: 0 0 0 0;
+		margin: 6px 0 0 0;
 	}
 
 	&__main-container {
 		position: relative;
-		&::after {
-			content: '';
-			position: absolute;
-			width: 8px;
-			background-color: #ebebeb;
-			top: 0;
-			bottom: 0;
-			left: 50%;
-			margin-left: -3px;
-			border-radius: 3px;
-		}
-		@include mq(tablet, max) {
-			&::after {
-				left: 0;
-			}
-		}
 	}
 
 	&__container {
 		position: relative;
 		background-color: inherit;
 		width: 50%;
+		padding: 0 40px 0 0;
+		cursor: pointer;
 		@include mq(tablet, max) {
 			width: 100%;
+			padding: 0 0 0 0;
 			&::before {
 				left: 60px;
 				border: medium solid white;
