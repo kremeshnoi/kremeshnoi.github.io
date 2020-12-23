@@ -1,12 +1,18 @@
 <template>
+
 	<div class="profile-page">
 		<ProfileCard/>
+
 		<section class="main section-skew">
 			<About/>
+
 			<Skills/>
+
 			<Projects/>
+
 		</section>
 	</div>
+
 </template>
 
 <script>
