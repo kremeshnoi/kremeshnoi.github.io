@@ -113,7 +113,7 @@ export default {
 		display: grid;
 		column-gap: 20px;
 		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 10px;
+		grid-gap: 12px;
 		@include mq(desktop, max) {
 			grid-template-columns: repeat(2, 1fr);
 		}
