@@ -101,7 +101,7 @@ export default {
 	}
 
 	&__title-worked-with {
-		padding-top: 20px;
+		padding-top: 30px;
 	}
 
 	&__description {
@@ -113,6 +113,7 @@ export default {
 		display: grid;
 		column-gap: 20px;
 		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 10px;
 		@include mq(desktop, max) {
 			grid-template-columns: repeat(2, 1fr);
 		}
@@ -123,7 +124,6 @@ export default {
 
 	&__progress {
 		height: 8px;
-		margin: 0 0 20px 0;
 	}
 }
 
